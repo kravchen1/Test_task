@@ -218,7 +218,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 278f233232fe6e948915f43664159b05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  card_prefab: {fileID: 8603379975955625850, guid: b0fa20f9a4e267745b79925ce8e0c2f7, type: 3}
+  card_prefab: {fileID: 5945419116482332722, guid: b0fa20f9a4e267745b79925ce8e0c2f7, type: 3}
   click_random_swap: {fileID: 622319766}
   cards_in_hand: []
 --- !u!4 &421798886

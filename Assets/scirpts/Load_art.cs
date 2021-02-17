@@ -11,7 +11,6 @@ public class Load_art : MonoBehaviour
         WWW www = new WWW(url);
         yield return www;
 
-        Texture2D tex = www.texture;
-        GetComponent<Image>().sprite = Sprite.Create((Texture2D)tex, new Rect(0, 0, 90, 50), Vector2.zero);
+        GetComponent<Image>().sprite = Sprite.Create((Texture2D)www.texture, new Rect(0, 0, 90, 50), Vector2.zero);
     }
 }
